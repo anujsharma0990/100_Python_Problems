@@ -1,0 +1,13 @@
+User will input(3 ages).Find the oldest age
+
+
+First_age = int(input("Enter the first age: "))
+Second_age = int(input("Enter the second age: "))
+Third_age = int(input("Enter the third age: "))
+
+if First_age > Second_age and First_age > Third_age:
+    print(First_age, "is the oldest one.")
+elif Second_age > First_age and Second_age > Third_age:
+    print(Second_age, "is rhe oldest one.")
+elif Third_age > Second_age and Third_age > First_age:    
+    print(Third_age, "is the oldest one.")
