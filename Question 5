@@ -1,0 +1,24 @@
+#Write a program that will reverse a four digit number and also it checks whether the reverse is true
+user_input = int(input("Enter four digit number: "))
+num = user_input
+
+a = num%10
+num = num//10
+
+b = num%10
+num = num//10
+
+c = num%10
+num = num//10
+
+d = num%10
+num = num//10
+
+rev = 1000*a + 100*b + 10*c + d
+print("original number: ", user_input)
+print("reversed number: ", rev)
+
+if user_input == rev:
+    print("True")
+else:
+    print("False")
