@@ -1,6 +1,3 @@
-User will input(3 ages).Find the oldest age
-
-
 First_age = int(input("Enter the first age: "))
 Second_age = int(input("Enter the second age: "))
 Third_age = int(input("Enter the third age: "))
